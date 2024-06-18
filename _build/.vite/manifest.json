@@ -1,0 +1,84 @@
+{
+  "_HttpStatusCode-DjTx85av.js": {
+    "file": "assets/HttpStatusCode-DjTx85av.js",
+    "name": "HttpStatusCode"
+  },
+  "_index-DPR8_67c.js": {
+    "file": "assets/index-DPR8_67c.js",
+    "name": "index",
+    "imports": [
+      "_web-D2Ofs8l4.js"
+    ]
+  },
+  "_web-D2Ofs8l4.js": {
+    "file": "assets/web-D2Ofs8l4.js",
+    "name": "web"
+  },
+  "src/routes/[...404].mdx?pick=$css": {
+    "file": "assets/_...404_-DK5yL7Fl.js",
+    "name": "_...404_",
+    "src": "src/routes/[...404].mdx?pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-DPR8_67c.js",
+      "_web-D2Ofs8l4.js",
+      "_HttpStatusCode-DjTx85av.js"
+    ]
+  },
+  "src/routes/about.mdx?pick=$css": {
+    "file": "assets/about-Bvt7zmE-.js",
+    "name": "about",
+    "src": "src/routes/about.mdx?pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-DPR8_67c.js",
+      "_web-D2Ofs8l4.js"
+    ]
+  },
+  "src/routes/index.mdx?pick=$css": {
+    "file": "assets/index-Q_MW7Ycc.js",
+    "name": "index",
+    "src": "src/routes/index.mdx?pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-DPR8_67c.js",
+      "_web-D2Ofs8l4.js"
+    ],
+    "css": [
+      "assets/index-7whypOeP.css"
+    ]
+  },
+  "src/routes/test.mdx?pick=$css": {
+    "file": "assets/test-1FFuTXyr.js",
+    "name": "test",
+    "src": "src/routes/test.mdx?pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-DPR8_67c.js",
+      "_web-D2Ofs8l4.js"
+    ]
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-mBtjX6Vg.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_web-D2Ofs8l4.js",
+      "_HttpStatusCode-DjTx85av.js"
+    ],
+    "dynamicImports": [
+      "src/routes/[...404].mdx?pick=$css",
+      "src/routes/about.mdx?pick=$css",
+      "src/routes/index.mdx?pick=$css",
+      "src/routes/test.mdx?pick=$css"
+    ],
+    "css": [
+      "assets/client-heETKpE2.css"
+    ]
+  }
+}
